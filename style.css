@@ -1,0 +1,12 @@
+body { font-family: sans-serif; background: #f1f5f9; margin: 0; }
+main { max-width: 480px; margin: 0 auto; padding: 20px; }
+h1 { color: #1e88e5; }
+.nueva { display: flex; gap: 8px; }
+input { flex: 1; padding: 10px; font-size: 16px; }
+button { background: #1e88e5; color: #fff; border: 0;
+padding: 10px 14px; border-radius: 6px; }
+ul { list-style: none; padding: 0; }
+li { background: #fff; margin-top: 8px; padding: 10px; border-radius: 6px;
+display: flex; justify-content: space-between; align-items: center; }
+li.hecha span { text-decoration: line-through; color: #999; }
+li button { background: #e53935; padding: 4px 10px; }
